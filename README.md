@@ -1,11 +1,13 @@
 # Custom Toast
+
+[![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)][![](https://jitpack.io/v/GrenderG/Toasty.svg)](https://jitpack.io/#GrenderG/Toasty)  
 - add library gradle : 
 
 ```Gradle
     compile 'com.zarinpal:toast:0.0.3'
         
 ```
-- Use example : 
+# Usage : 
 
 ```Java
      // show custom toast 
