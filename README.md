@@ -7,7 +7,7 @@
     compile 'com.zarinpal:toast:0.0.3'
         
 ```
-# Usage : 
+`Usage` : 
 
 ```Java
      // show custom toast 
