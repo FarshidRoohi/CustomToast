@@ -4,17 +4,17 @@
 - add library gradle : 
 
 ```Gradle
-    compile 'com.zarinpal:toast:0.0.3'
+    compile 'com.zarinpal:toast:0.0.4'
         
 ```
 `Usage` : 
 
 ```Java
-     // show custom toast 
-      new CustomToast(getApplicationContext())
-                .setMessage("create Toast")
-                .setIcon(R.mipmap.ic_launcher_round)
-                .setColor(Color.GRAY, Color.WHITE)
-                .setDurationToast(Toast.LENGTH_SHORT)
-                .show();
+      // show custom toast
+        new Toast(getApplicationContext())
+            .setMessage("zarinpal Toast")
+            .setColor(Color.GRAY, Color.WHITE)
+            .setIcon(R.mipmap.ic_launcher_round)
+            .setDurationToast(Toast.LENGTH_SHORT)
+            .show();
 ```

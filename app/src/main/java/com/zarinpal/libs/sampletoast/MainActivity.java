@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
                 // show custom toast
                 new Toast(getApplicationContext())
                         .setMessage("zarinpal Toast")
-                        .setIcon(R.mipmap.ic_launcher_round)
                         .setColor(Color.GRAY, Color.WHITE)
+                        .setIcon(R.mipmap.ic_launcher_round)
                         .setDurationToast(Toast.LENGTH_SHORT)
                         .show();
             }

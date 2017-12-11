@@ -56,4 +56,10 @@ public class Toast extends BaseToast {
         this.setDuration(duration);
         return this;
     }
+
+    @Override
+    public void show() {
+        this.imgIc.setVisibility(this.imgIc.getDrawable() == null ? View.GONE : View.VISIBLE);
+        super.show();
+    }
 }

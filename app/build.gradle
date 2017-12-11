@@ -25,6 +25,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     // add lib zarinpal toast
-    compile 'com.zarinpal:toast:0.0.3'
+    compile 'com.zarinpal:toast:0.0.4'
 
 }
